@@ -1,0 +1,157 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.header, .subheader, .footer {
+    background-color: hsl(215, 28%, 17%);
+    margin: 0px;
+    padding: 20px 300px;
+}
+
+.header, .subheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subheader {
+    gap: 50px;
+    padding: 150px 300px;
+}
+
+.subheader img {
+    width: 500px;
+}
+
+.overview {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+button, .action {
+    background-color: #3882f6;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    color: #f9faf8;
+    font-weight: 550;
+    border: none;
+}
+
+#logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+#title {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.subtext, a:visited {
+    font-size: 18px;
+    color: #d7d9dc;
+}
+
+.info-title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    padding: 50px;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    text-align: center;
+    gap: 20px;
+}
+
+.info-boxes {
+    padding-bottom: 200px;
+}
+
+.box {
+    width: 130px;
+    height: 130px;
+    border: 5px solid #3882f6;
+    border-radius: 25px;
+}
+
+.quote {
+    padding: 200px 300px;
+    background-color: #e5e7eb;
+    color: #1f2937;
+}
+
+#quote-text {
+    font-family: "Times New Roman", sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding-bottom: 30px;
+}
+
+#quote-speaker {
+    text-align: right;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    margin: 150px 300px;
+}
+
+#action-title {
+    color: #f9faf8;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.action button {
+    outline-style: solid;
+    outline-color: #f9faf8;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+a {
+    text-decoration: none;
+}
